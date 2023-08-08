@@ -2,7 +2,7 @@
     text-align: center;
     margin:2% 26%;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     .all{
         margin:2% 2%;
     }
