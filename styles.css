@@ -2,7 +2,7 @@
     text-align: center;
     margin:2% 26%;
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 900px) {
     .all{
         margin:2% 2%;
     }
@@ -34,9 +34,9 @@
     font-size: 25px;
    
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1000px) {
     .head_hr{
-        width: 120px;
+        width: 25%;
     }
     
 }
@@ -240,7 +240,7 @@ select{
   }
 
 
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 1200px) {
     .box2{
         height: 350px;
     }
