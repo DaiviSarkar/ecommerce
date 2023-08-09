@@ -14,6 +14,11 @@ if(boxcolor == "Box1"){
     document.getElementById("Box2").style.backgroundColor = "white";
     document.getElementById("Box3").style.backgroundColor = "white";
 
+
+    document.getElementById("table1").style.display = "block";
+    document.getElementById("table2").style.display = "none";
+    document.getElementById("table3").style.display = "none";
+
     document.getElementById("amount").innerHTML = "195.00";
 
 }
@@ -22,12 +27,20 @@ if(boxcolor == "Box2"){
     document.getElementById("Box2").style.backgroundColor = "rgba(0, 127, 97, 5%)";
     document.getElementById("Box3").style.backgroundColor = "white";
 
+    document.getElementById("table1").style.display = "none";
+    document.getElementById("table2").style.display = "block";
+    document.getElementById("table3").style.display = "none";
+
     document.getElementById("amount").innerHTML = "345.00";
 }
 if(boxcolor == "Box3"){
     document.getElementById("Box1").style.backgroundColor = "white";
     document.getElementById("Box2").style.backgroundColor = "white";
     document.getElementById("Box3").style.backgroundColor = "rgba(0, 127, 97, 5%)";
+
+    document.getElementById("table1").style.display = "none";
+    document.getElementById("table2").style.display = "none";
+    document.getElementById("table3").style.display = "block";
 
     document.getElementById("amount").innerHTML = "528.00";
 }
